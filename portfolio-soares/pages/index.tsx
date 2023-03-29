@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import type { NextPage } from "next"
 import Header from '../components/Header'
+import Hero from '../components/Hero'
 
 
 
@@ -15,6 +16,9 @@ const Home:NextPage = () => {
       <Header />
 
       {/* Her0 */}
+      <section id="Hero">
+        <Hero />
+      </section>
 
       {/* About */}
 
