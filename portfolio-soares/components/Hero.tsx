@@ -15,10 +15,17 @@ function Hero({}: Props) {
   return (
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
         <BackgroundCircles />
+        <img 
+        className='relative rounded-full h-32 w-32 mx-auto object-cover'
+        src="https://res.cloudinary.com/soares04/image/upload/v1634422175/uy7y0zkuexy6gevonu7q.png" alt=""
+        />
+        <div>
         <h1>
             <span>{text}</span>
             <Cursor cursorColor='#e8a921'/>
         </h1>
+        </div>
+        
     </div>
   )
 }
