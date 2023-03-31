@@ -7,15 +7,12 @@ import Hero from '../components/Hero'
 
 const Home:NextPage = () => {
   return (
-    <div>
+    <div className='bg-[rgb(36,36,36)] text-white h-screen'>
       <Head>
         <title>Soares's Portfolio </title>
       </Head>
 
-      {/* Header */}
       <Header />
-
-      {/* Her0 */}
       <section id="Hero">
         <Hero />
       </section>
