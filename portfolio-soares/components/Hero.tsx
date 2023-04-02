@@ -20,10 +20,18 @@ function Hero({}: Props) {
         src="https://res.cloudinary.com/soares04/image/upload/v1634422175/uy7y0zkuexy6gevonu7q.png" alt=""
         />
         <div>
-        <h1>
-            <span>{text}</span>
+        <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>Software Engineer</h2>
+        <h1 className='text-5xl lg:text-6xl font-semibold px-8'>
+            <span className='mr-3'>{text}</span>
             <Cursor cursorColor='#e8a921'/>
         </h1>
+
+        <div>
+            <button>About</button>
+            <button>Experience</button>
+            <button>Skills</button>
+            <button>Project</button>
+        </div>
         </div>
         
     </div>
