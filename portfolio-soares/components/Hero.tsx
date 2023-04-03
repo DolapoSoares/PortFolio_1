@@ -20,7 +20,7 @@ function Hero({}: Props) {
         className='relative rounded-full h-32 w-32 mx-auto object-cover'
         src="https://res.cloudinary.com/soares04/image/upload/v1634422175/uy7y0zkuexy6gevonu7q.png" alt=""
         />
-        <div className='z-20'>
+        <div className='z-10'>
         <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>Software Engineer</h2>
         <h1 className='text-5xl lg:text-6xl font-semibold px-8'>
             <span className='mr-3'>{text}</span>
