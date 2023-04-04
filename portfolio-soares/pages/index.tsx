@@ -2,6 +2,7 @@ import Head from 'next/head'
 import type { NextPage } from "next"
 import Header from '../components/Header'
 import Hero from '../components/Hero'
+import About from '../components/About'
 
 
 
@@ -13,12 +14,14 @@ const Home:NextPage = () => {
       </Head>
 
       <Header />
-      <section id="Hero" className='snap-center'>
+      <section id="Hero" className='snap-start'>
         <Hero />
       </section>
 
       {/* About */}
-
+      <section id="About" className='snap-center'>
+        <About />
+      </section>
       {/* Experience */}
 
       {/* Skills */}
