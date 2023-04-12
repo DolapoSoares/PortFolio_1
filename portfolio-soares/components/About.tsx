@@ -14,7 +14,7 @@ function About({}: Props) {
       }}
       whileInView={{
         opacity: 1,
-        x: 0,
+        x: 0
       }}
       className="flex flex-col relative text-center h-screen md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
     >
