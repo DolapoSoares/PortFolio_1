@@ -17,17 +17,16 @@ function Experience({}: Props) {
         opacity: 1,
       }}
     className='h-screen flex relative overflow-hidden text-left md:flex-row max-w-full px-10 justify-evenly mx-auto items-center'>
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl ">
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl mb-40">
         EXPERIENCE
       </h3>
 
-      <div>
-        <ExperienceCard />
+      <div className='w-full flex space-x-5 overflow-x-scroll p-30 snap-x snap-mandatory mt-60'>
         <ExperienceCard />
         <ExperienceCard />
         <ExperienceCard />
       </div>
-    </motion. div>
+    </motion.div>
   )
 }
 

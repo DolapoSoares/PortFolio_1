@@ -5,7 +5,7 @@ type Props = {}
 
 function ExperienceCard({}: Props) {
   return (
-    <article>
+    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] px-10 cursor-pointer transition-opacity duration-200 overflow-hidden'>
         <motion.img
              initial={{
                 y: -200,
@@ -31,8 +31,12 @@ function ExperienceCard({}: Props) {
             <p className='font-bold text-2xl mt-1'>BACKEND ENGINEER</p>
             <div className='flex space-x-2 my-2'>
               <img className="h-10 w-10 rounded-full" src="https://res.cloudinary.com/soares04/image/upload/v1681343173/tl7ntxnjbk8gf0iu4gc9.png" />
+
+              <img className="h-10 w-10 rounded-full" src="https://res.cloudinary.com/soares04/image/upload/v1681343173/tl7ntxnjbk8gf0iu4gc9.png" />
+              <img className="h-10 w-10 rounded-full" src="https://res.cloudinary.com/soares04/image/upload/v1681343173/tl7ntxnjbk8gf0iu4gc9.png" />
+              <img className="h-10 w-10 rounded-full" src="https://res.cloudinary.com/soares04/image/upload/v1681343173/tl7ntxnjbk8gf0iu4gc9.png" />
             </div>
-            <p>June 2022 - December 2022</p>
+            <p className='uppercase py-5 text-gray-500 '>June 2022 - December 2022</p>
 
             <ul className='list-disc space-y-4 ml-5 text-lg'>
                 <li>1</li>
