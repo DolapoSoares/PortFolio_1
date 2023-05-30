@@ -12,6 +12,20 @@ function Skills({}: Props) {
 
         <div>
           <Skill />
+          <Skill />
+          <Skill />
+          <Skill />
+          <Skill />
+          <Skill />
+          <Skill />
+          <Skill />
+          <Skill />
+          <Skill />
+          <Skill />
+          <Skill />
+          <Skill />
+          <Skill />
+          <Skill />
         </div>
        
     </motion.div>
