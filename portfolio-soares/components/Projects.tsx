@@ -1,11 +1,22 @@
 import React from "react";
+import { motion } from "framer-motion"
 
 type Props = {};
 
 function Projects({}: Props) {
   const projects = [1, 2, 3];
   return (
-    <div className="h-screen flex relative flex-col text-left md:flex-row max-w-full xl:px-10 min-h-screen justify-evenly z-0 mx-auto items-center overflow-hidden">
+    <motion.div 
+    initial={{
+        opacity: 0,
+      }}
+      transition={{
+        duration: 1.5,
+      }}
+      whileInView={{
+        opacity: 1,
+      }}
+    className="h-screen flex relative flex-col text-left md:flex-row max-w-full xl:px-10 min-h-screen justify-evenly z-0 mx-auto items-center overflow-hidden">
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text2xl mt-0">
         Projects
       </h3>
@@ -21,7 +32,7 @@ function Projects({}: Props) {
                             <span className="underline decoration-[#f7ab0a]">{i + 1} of {projects.length}:</span> PennyCanny
                         </h4>
 
-                        <p>
+                        <p className="text-lg text-center md:text-left">
                             PennyCanny is your go to website when you want to get latest coupons to products for different companies like Doordash,Lowe's, chegg, Fiverr, GRUBHUB and the likes. PenyCanny is the ultimate destination for finding the best deals and discounts on everything from fashion and home decor to food and travel. They offer a hassle-free, high-value shopping experience to online buyers and help customers save money on their everyday purchases.  
                         </p>
                     </div> 
@@ -31,7 +42,7 @@ function Projects({}: Props) {
       </div>
 
       <div className="w-full absolute top-[30%] bg-[#f7ab0a]/10 left-0 h-[500px] -skew-y-12"></div>
-    </div>
+    </motion.div>
   );
 }
 
