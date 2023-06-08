@@ -25,7 +25,22 @@ function Projects({}: Props) {
         {projects.map((project, i) => {
             return (
                 <div className="w-screen flex flex-shrink-0 flex-col space-y-3 items-center justify-center p-20 md:p-44 h-screen xl:p-64">
-                    <img className="w-110 h-80" src="https://res.cloudinary.com/soares04/image/upload/v1686153216/rqcwrp9pcl4inlocgcn5.png" alt=""/>
+                    <motion.img 
+                        initial={{
+                            y: -300,
+                            opacity: 0
+                          }}
+                          transition={{
+                            duration: 1.2,
+                          }}
+                          whileInView={{
+                            opacity: 1,
+                            y:0
+                          }}
+                          viewport={{
+                            once:true
+                          }}
+                    className="w-110 h-80" src="https://res.cloudinary.com/soares04/image/upload/v1686153216/rqcwrp9pcl4inlocgcn5.png" alt=""/>
 
                     <div className="space-y-10 px-0 md:px-10 max-w-6xl">
                         <h4 className="text-4xl font-semibold text-center">
