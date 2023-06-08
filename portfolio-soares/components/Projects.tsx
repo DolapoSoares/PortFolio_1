@@ -14,11 +14,16 @@ function Projects({}: Props) {
         {projects.map((project, i) => {
             return (
                 <div className="w-screen flex flex-shrink-0 flex-col space-y-3 items-center justify-center p-20 md:p-44 h-screen xl:p-64">
-                    <img src="https://res.cloudinary.com/soares04/image/upload/v1686153216/rqcwrp9pcl4inlocgcn5.png" alt=""/>
-                    <div>
+                    <img className="w-110 h-80" src="https://res.cloudinary.com/soares04/image/upload/v1686153216/rqcwrp9pcl4inlocgcn5.png" alt=""/>
+
+                    <div className="space-y-10 px-0 md:px-10 max-w-6xl">
                         <h4 className="text-4xl font-semibold text-center">
                             <span className="underline decoration-[#f7ab0a]">{i + 1} of {projects.length}:</span> PennyCanny
                         </h4>
+
+                        <p>
+                            PennyCanny is your go to website when you want to get latest coupons to products for different companies like Doordash,Lowe's, chegg, Fiverr, GRUBHUB and the likes. PenyCanny is the ultimate destination for finding the best deals and discounts on everything from fashion and home decor to food and travel. They offer a hassle-free, high-value shopping experience to online buyers and help customers save money on their everyday purchases.  
+                        </p>
                     </div> 
                 </div>
             )
