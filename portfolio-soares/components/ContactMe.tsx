@@ -15,6 +15,13 @@ function ContactMe({}: Props) {
                 If you need my services, 
                 <span> let's talk</span>
             </h4>
+
+            <div>
+                <div>
+                    <PhoneIcon />
+                    <p></p>
+                </div>
+            </div>
         </div>
     </div>
   )
