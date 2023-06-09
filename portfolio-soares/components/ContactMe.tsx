@@ -19,7 +19,15 @@ function ContactMe({}: Props) {
             <div>
                 <div className='flex items-center space-x-5'>
                     <PhoneIcon className='text-[#f7ab0a] animate-pulse w-8 h-8'/>
-                    <p>+2348088644250</p>
+                    <p className='text-2xl'>+2348088644250</p>
+                </div>
+                <div className='flex items-center space-x-5'>
+                    <EnvelopeIcon className='text-[#f7ab0a] animate-pulse w-8 h-8'/>
+                    <p className='text-2xl'>soaresdolapo@gmail.com</p>
+                </div>
+                <div className='flex items-center space-x-5'>
+                    <MapPinIcon className='text-[#f7ab0a] animate-pulse w-8 h-8'/>
+                    <p className='text-2xl'>3, Lateef Dosumu Street Ifako , Gbagada, Lagos.</p>
                 </div>
             </div>
         </div>
