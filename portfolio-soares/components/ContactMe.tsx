@@ -30,6 +30,18 @@ function ContactMe({}: Props) {
                     <p className='text-2xl'>3, Lateef Dosumu Street Ifako , Gbagada, Lagos.</p>
                 </div>
             </div>
+
+            <form className='flex flex-col space-y-2 w-fit'>
+                <div >
+                    <input />
+                    <input />
+                </div>
+
+                <input />
+
+                <textarea />
+                <button></button>
+            </form>
         </div>
     </div>
   )
