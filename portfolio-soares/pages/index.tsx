@@ -10,7 +10,7 @@ import ContactMe from "../components/ContactMe";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
+    <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-slate-400/20 scrollbar-thumb-[#f7ab0a]">
       <Head>
         <title>Soares's Portfolio </title>
       </Head>
