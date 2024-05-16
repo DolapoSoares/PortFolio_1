@@ -38,49 +38,10 @@ function ContactMe({}: Props) {
           <div className="flex items-center space-x-5">
             <MapPinIcon className="text-[#f7ab0a] animate-pulse w-8 h-8" />
             <p className="text-2xl">
-              3, Lateef Dosumu Street Ifako , Gbagada, Lagos.
+              Lagos, Nigeria.
             </p>
           </div>
         </div>
-
-        <form
-          onSubmit={handleSubmit(onSubmit)}
-          className="flex flex-col space-y-2 w-fit"
-        >
-          <div className="flex space-x-2">
-            <input
-              {...register("name")}
-              placeholder="Name"
-              className="contactInput"
-              type="text"
-            />
-            <input
-              {...register("email")}
-              placeholder="Email"
-              className="contactInput"
-              type="email"
-            />
-          </div>
-
-          <input
-            {...register("subject")}
-            placeholder="Subject"
-            className="contactInput"
-            type="text"
-          />
-
-          <textarea
-            {...register("message")}
-            placeholder="Message"
-            className="contactInput"
-          />
-          <button
-            type="submit"
-            className="bg-[#f7ab0a] py-5 px-10 rounded-md text-black font-bold"
-          >
-            Submit
-          </button>
-        </form>
       </div>
     </div>
   );
