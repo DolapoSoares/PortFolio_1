@@ -1,7 +1,11 @@
 import React from 'react'
 import { motion } from "framer-motion";
 
-type Props = {}
+type Props = {
+  jobTitle: string;
+  company: string;
+  role: string;
+}
 
 function ExperienceCard({}: Props) {
   
