@@ -24,15 +24,37 @@ function Experience({}: Props) {
 
       <div className="w-full flex space-x-5 overflow-x-scroll p-30 snap-x snap-mandatory mt-40 scrollbar scrollbar-track-slate-400/20 scrollbar-thumb-[#f7ab0a]">
         <ExperienceCard
-          jobTitle="Engineer"
-          company="eConnect"
-          role="Backend Engineer"
-          startDate="June 2022"
-          endDate="December 2022"
-          bulletPoints={["Experience 1", "Experience 2", "Experience 3"]}
+          jobTitle="Developer"
+          company="SmartFix"
+          role="FullStack Developer"
+          startDate="Jan 2023"
+          endDate="July 2023"
+          bulletPoints={["Leveraged ReactJS and React-Native to craft intuitive and responsive front-end solutions, enhancing user experience.", "Played a pivotal role in the design and implementation of a MongoDB database system, guaranteeing data integrity and accessibility.", "Collaborated seamlessly with cross-functional teams to clarify project requirements and proposals, fostering effective communication channels and contributing to project success."]}
         />
-        {/* <ExperienceCard />
-        <ExperienceCard /> */}
+        <ExperienceCard
+           jobTitle="Engineer"
+           company="eConnect"
+           role="Backend Engineer"
+           startDate="June 2022"
+           endDate="December 2022"
+           bulletPoints={["Experience 1", "Experience 2", "Experience 3"]}
+        />
+        <ExperienceCard 
+           jobTitle="Engineer"
+           company="PennyCanny"
+           role="Fullstack Engineer"
+           startDate="March 2022"
+           endDate="June 2022"
+           bulletPoints={["Experience 1", "Experience 2", "Experience 3"]}
+        />
+         <ExperienceCard 
+           jobTitle="Associate Engineer"
+           company="Decagon"
+           role="Backend Engineer"
+           startDate="October 2020"
+           endDate="March 2022"
+           bulletPoints={["Experience 1", "Experience 2", "Experience 3"]}
+        />
       </div>
     </motion.div>
   );
