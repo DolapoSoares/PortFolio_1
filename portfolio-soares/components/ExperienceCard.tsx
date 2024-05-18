@@ -42,20 +42,18 @@ function ExperienceCard({
         />
 
         <div className='px-0 md:px-10'>
-            <h4 className='text-4xl font-light'>ENGINEER at eConnect</h4>
-            <p className='font-bold text-2xl mt-1'>BACKEND ENGINEER</p>
+            <h4 className='text-4xl font-light'>{jobTitle} at {company}</h4>
+            <p className='font-bold text-2xl mt-1'>{role}</p>
             <div className='flex space-x-2 my-2'>
               <img className="h-10 w-10 rounded-full" src="https://res.cloudinary.com/soares04/image/upload/v1681343173/tl7ntxnjbk8gf0iu4gc9.png" />
             </div>
-            <p className='uppercase py-5 text-gray-500 '>June 2022 - December 2022</p>
+            <p className='uppercase py-5 text-gray-500 '>{startDate} - {endDate}</p>
 
             <ul className='list-disc space-y-4 ml-5 text-lg'>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
-            </ul>
+          {bulletPoints.map((point, index) => (
+            <li key={index}>{point}</li>
+          ))}
+        </ul>
         </div>
     </article>
   )
