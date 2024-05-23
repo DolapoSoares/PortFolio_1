@@ -30,6 +30,8 @@ function Experience({}: Props) {
           startDate="Jan 2023"
           endDate="July 2023"
           bulletPoints={["Leveraged ReactJS and React-Native to craft intuitive and responsive front-end solutions, enhancing user experience.", "Played a pivotal role in the design and implementation of a MongoDB database system, guaranteeing data integrity and accessibility.", "Collaborated seamlessly with cross-functional teams to clarify project requirements and proposals, fostering effective communication channels and contributing to project success."]}
+          companyLogo=""
+          logos={[""]}
         />
         <ExperienceCard
            jobTitle="Engineer"
@@ -37,7 +39,9 @@ function Experience({}: Props) {
            role="Backend Engineer"
            startDate="June 2022"
            endDate="December 2022"
-           bulletPoints={["Experience 1", "Experience 2", "Experience 3"]}
+           bulletPoints={["Utilized ReactJS, React-Native, and MongoDB to create responsive and efficient front-end solutions.", "Collaborated with cross-functional teams, clarifying project requirements and contributing to successful project outcomes.", "Conducted thorough software system testing and validation procedures, resulting in a reliable and resilient system architecture."]}
+           companyLogo=""
+           logos={[""]}
         />
         <ExperienceCard 
            jobTitle="Engineer"
@@ -45,7 +49,9 @@ function Experience({}: Props) {
            role="Fullstack Engineer"
            startDate="March 2022"
            endDate="June 2022"
-           bulletPoints={["Experience 1", "Experience 2", "Experience 3"]}
+           bulletPoints={["Developed Single Page Applications using Javascript frameworks like Handlebars,Node.", "Utilized AWS for production and quality assurance testing, ensuring a seamless and reliable deployment process.", "Implemented design solutions and conducted root cause analysis on component failures, contributing to system stability and reliability."]}
+           companyLogo=""
+           logos={[""]}
         />
          <ExperienceCard 
            jobTitle="Associate Engineer"
@@ -53,7 +59,9 @@ function Experience({}: Props) {
            role="Backend Engineer"
            startDate="October 2020"
            endDate="March 2022"
-           bulletPoints={["Experience 1", "Experience 2", "Experience 3"]}
+           bulletPoints={["Developed full-stack applications using Node, Express on the backend, and React on the frontend, delivering highly interactive and user-friendly experiences.", "Maintained client information and accounts while ensuring confidentiality, upholding professional ethics and standards.", "Built high-quality applications using React, JavaScript, and Nodejs and designed testable code and applications using the latest technical features."]}
+           companyLogo=""
+           logos={[""]}
         />
       </div>
     </motion.div>

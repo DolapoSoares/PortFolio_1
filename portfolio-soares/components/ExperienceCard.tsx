@@ -7,6 +7,8 @@ type Props = {
   role: string;
   startDate: string;
   endDate: string;
+  companyLogo: string;
+  logos: string[];
   bulletPoints: string[];
 }
 
@@ -16,6 +18,8 @@ function ExperienceCard({
   role,
   startDate,
   endDate,
+  companyLogo,
+  logos,
   bulletPoints,
 }: Props) {
   
@@ -36,7 +40,7 @@ function ExperienceCard({
               viewport={{
                 once: true,
               }}
-              src="https://res.cloudinary.com/soares04/image/upload/v1681225656/xjv274eqnrwd7cq6gasj.png"
+              src={companyLogo}
               className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center"
               alt=""
         />
@@ -45,7 +49,9 @@ function ExperienceCard({
             <h4 className='text-4xl font-light'>{jobTitle} at {company}</h4>
             <p className='font-bold text-2xl mt-1'>{role}</p>
             <div className='flex space-x-2 my-2'>
-              <img className="h-10 w-10 rounded-full" src="https://res.cloudinary.com/soares04/image/upload/v1681343173/tl7ntxnjbk8gf0iu4gc9.png" />
+            {logos.map((logo, index) => (
+            <img key={index} className='h-10 w-10 rounded-full' src={logo} alt=""/>
+          ))}
             </div>
             <p className='uppercase py-5 text-gray-500 '>{startDate} - {endDate}</p>
 
