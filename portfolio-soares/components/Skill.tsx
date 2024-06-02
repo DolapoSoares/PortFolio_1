@@ -4,9 +4,10 @@ import { motion } from "framer-motion"
 type Props = {
     directionLeft ?: boolean;
     icon : string;
+    level: string;
 }
 
-function Skill({ directionLeft, icon }: Props) {
+function Skill({ directionLeft, icon, level }: Props) {
   return (
     <div className='group relative flex cursor-pointer'>
         <motion.img
@@ -27,7 +28,7 @@ function Skill({ directionLeft, icon }: Props) {
         
         <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-24 w-24 md:w-25 md:h-25 xl:w-32 xl:h-32 rounded-full z-0'>
             <div className='flex items-center justify-center h-full'>
-                <p className='text-xl font-bold text-black opacity-100'>100%</p>
+                <p className='text-xl font-bold text-black opacity-100'>{level}</p>
             </div>
         </div>
     </div>

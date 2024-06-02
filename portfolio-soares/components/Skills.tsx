@@ -23,21 +23,21 @@ function Skills({}: Props) {
         <h3 className='absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm my-auto'>Hover over screen for proficency level</h3>
 
         <div className='grid grid-cols-5 gap-6'>
-          <Skill />
-          <Skill />
-          <Skill />
-          <Skill />
-          <Skill />
-          <Skill />
-          <Skill />
-          <Skill />
-          <Skill />
-          <Skill />
-          <Skill />
-          <Skill />
-          <Skill />
-          <Skill />
-          <Skill />
+          <Skill icon='https://img.icons8.com/?size=100&id=54087&format=png&color=000000' level=''/>
+          <Skill icon='https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000' level=''/>
+          <Skill icon='https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000' level=''/>
+          <Skill icon='https://img.icons8.com/?size=100&id=D2Hi2VkJSi33&format=png&color=000000' level=''/>
+          <Skill icon='https://img.icons8.com/?size=100&id=YjeKwnSQIBUq&format=png&color=000000' level=''/>
+          <Skill icon='https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000' level=''/>
+          <Skill icon='https://img.icons8.com/?size=100&id=oROcPah5ues6&format=png&color=000000' level=''/>
+          <Skill icon='https://img.icons8.com/?size=100&id=9ESZMOeUioJS&format=png&color=000000' level=''/>
+          <Skill icon='https://img.icons8.com/?size=100&id=MWiBjkuHeMVq&format=png&color=000000' level=''/>
+          <Skill icon='https://img.icons8.com/?size=100&id=38561&format=png&color=000000' level=''/>
+          <Skill icon='https://img.icons8.com/?size=100&id=wU62u24brJ44&format=png&color=000000' level=''/>
+          <Skill icon='https://img.icons8.com/?size=100&id=62452&format=png&color=000000' level=''/>
+          <Skill icon='https://img.icons8.com/?size=100&id=20906&format=png&color=000000' level=''/>
+          <Skill icon='https://img.icons8.com/?size=100&id=AZOZNnY73haj&format=png&color=000000'/>
+          <Skill icon='https://img.icons8.com/?size=100&id=34886&format=png&color=000000'/>
         </div>
        
     </motion.div>
