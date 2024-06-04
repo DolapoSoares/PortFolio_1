@@ -4,7 +4,26 @@ import { motion } from "framer-motion"
 type Props = {};
 
 function Projects({}: Props) {
-  const projects = [1, 2, 3];
+  const projects = [
+    {
+      id: 1,
+      imgSrc: '(link unavailable)',
+      title: 'PennyCanny',
+      description: 'PennyCanny is your go to website when you want to get latest coupons to products for different companies like Doordash,Lowe\'s, chegg, Fiverr, GRUBHUB and the likes. PenyCanny is the ultimate destination for finding the best deals and discounts on everything from fashion and home decor to food and travel. They offer a hassle-free, high-value shopping experience to online buyers and help customers save money on their everyday purchases.'
+    },
+    {
+      id: 2,
+      imgSrc: '(link unavailable)',
+      title: 'Project 2',
+      description: 'This is a description of project 2.'
+    },
+    {
+      id: 3,
+      imgSrc: '(link unavailable)',
+      title: 'Project 3',
+      description: 'This is a description of project 3.'
+    }
+  ];
   return (
     <motion.div 
     initial={{
@@ -40,15 +59,15 @@ function Projects({}: Props) {
                           viewport={{
                             once:true
                           }}
-                    className="w-110 h-80" src="https://res.cloudinary.com/soares04/image/upload/v1686153216/rqcwrp9pcl4inlocgcn5.png" alt=""/>
+                    className="w-110 h-80" src="{project.img}" alt=""/>
 
                     <div className="space-y-10 px-0 md:px-10 max-w-6xl">
                         <h4 className="text-4xl font-semibold text-center">
-                            <span className="underline decoration-[#f7ab0a]">{i + 1} of {projects.length}:</span> PennyCanny
+                            <span className="underline decoration-[#f7ab0a]">{i + 1} of {projects.length}:</span> {project.title}
                         </h4>
 
                         <p className="text-lg text-center md:text-left">
-                            PennyCanny is your go to website when you want to get latest coupons to products for different companies like Doordash,Lowe's, chegg, Fiverr, GRUBHUB and the likes. PenyCanny is the ultimate destination for finding the best deals and discounts on everything from fashion and home decor to food and travel. They offer a hassle-free, high-value shopping experience to online buyers and help customers save money on their everyday purchases.  
+                            {project.description}
                         </p>
                     </div> 
                 </div>
