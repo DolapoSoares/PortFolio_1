@@ -7,21 +7,27 @@ function Projects({}: Props) {
   const projects = [
     {
       id: 1,
-      imgSrc: '(link unavailable)',
-      title: 'PennyCanny',
-      description: 'PennyCanny is your go to website when you want to get latest coupons to products for different companies like Doordash,Lowe\'s, chegg, Fiverr, GRUBHUB and the likes. PenyCanny is the ultimate destination for finding the best deals and discounts on everything from fashion and home decor to food and travel. They offer a hassle-free, high-value shopping experience to online buyers and help customers save money on their everyday purchases.'
+      imgSrc: 'https://oyasmartfix.com/',
+      title: 'SmartFix',
+      description: ''
+    },
+    {
+      id: 1,
+      imgSrc: 'https://cmris.npf.gov.ng/signup',
+      title: 'Police Login ',
+      description: ''
     },
     {
       id: 2,
       imgSrc: '(link unavailable)',
-      title: 'Project 2',
-      description: 'This is a description of project 2.'
+      title: 'Klasha App',
+      description: 'This is a dashboard sample that I built and can be used as a base for other projects'
     },
     {
       id: 3,
-      imgSrc: '(link unavailable)',
-      title: 'Project 3',
-      description: 'This is a description of project 3.'
+      imgSrc: 'https://res.cloudinary.com/soares04/image/upload/v1686153216/rqcwrp9pcl4inlocgcn5.png',
+      title: 'PennyCanny',
+      description: 'PennyCanny is your go to website when you want to get latest coupons to products for different companies like Doordash,Lowe\'s, chegg, Fiverr, GRUBHUB and the likes. PenyCanny is the ultimate destination for finding the best deals and discounts on everything from fashion and home decor to food and travel. They offer a hassle-free, high-value shopping experience to online buyers and help customers save money on their everyday purchases..'
     }
   ];
   return (
@@ -59,7 +65,7 @@ function Projects({}: Props) {
                           viewport={{
                             once:true
                           }}
-                    className="w-110 h-80" src="{project.img}" alt=""/>
+                    className="w-110 h-80" src={project.imgSrc} alt=""/>
 
                     <div className="space-y-10 px-0 md:px-10 max-w-6xl">
                         <h4 className="text-4xl font-semibold text-center">
