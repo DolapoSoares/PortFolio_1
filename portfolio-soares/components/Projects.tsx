@@ -8,20 +8,23 @@ function Projects({}: Props) {
     {
       id: 1,
       imgSrc: 'https://res.cloudinary.com/soares04/image/upload/c_crop,ar_16:9/v1722629264/ct0dp6esgwnzyighog7y.png',
-      title: 'SmartFix',
-      description: ''
+      title: 'OyaSmartFix',
+      description: 'Its a website that helps users that sign up on the platform connect to the best of artisans available in the city they are in. OyaSmartfix still just operates in some specific states in Nigeria.',
+      url: 'https://oyasmartfix.com/'
     },
     {
       id: 1,
       imgSrc: 'https://res.cloudinary.com/soares04/image/upload/c_crop,ar_16:9/v1722629262/ykoztgsa7f4nt6kv0llj.png',
       title: 'NPF SignUp',
-      description: ''
+      description: 'Motor Vehicle Information Portal for both Personels and Admins of the Nigerian Police Organization which records the identification number for any Police officer registring down their vehicle.',
+      url: 'https://cmris.npf.gov.ng/signup'
     },
     {
       id: 2,
       imgSrc: 'https://res.cloudinary.com/soares04/image/upload/c_crop,ar_16:9/v1722629262/mhfmbozkku4nfhsnwmib.png',
       title: 'Klasha App',
-      description: 'This is a dashboard sample that I built and can be used as a base for other projects'
+      description: 'This is a dashboard sample that I built and can be used as a base for other projects',
+      url: ''
     },
     {
       id: 3,
