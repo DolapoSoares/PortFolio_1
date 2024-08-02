@@ -24,13 +24,14 @@ function Projects({}: Props) {
       imgSrc: 'https://res.cloudinary.com/soares04/image/upload/c_crop,ar_16:9/v1722629262/mhfmbozkku4nfhsnwmib.png',
       title: 'Klasha App',
       description: 'This is a dashboard sample that I built and can be used as a base for other projects',
-      url: ''
+      url: 'https://klashadashboardapp.netlify.app/'
     },
     {
       id: 3,
       imgSrc: 'https://res.cloudinary.com/soares04/image/upload/v1686153216/rqcwrp9pcl4inlocgcn5.png',
       title: 'PennyCanny',
-      description: 'PennyCanny is your go to website when you want to get latest coupons to products for different companies like Doordash,Lowe\'s, chegg, Fiverr, GRUBHUB and the likes. PenyCanny is the ultimate destination for finding the best deals and discounts on everything from fashion and home decor to food and travel. They offer a hassle-free, high-value shopping experience to online buyers and help customers save money on their everyday purchases..'
+      description: 'PennyCanny is your go to website when you want to get latest coupons to products for different companies like Doordash,Lowe\'s, chegg, Fiverr, GRUBHUB and the likes. PenyCanny is the ultimate destination for finding the best deals and discounts on everything from fashion and home decor to food and travel. They offer a hassle-free, high-value shopping experience to online buyers and help customers save money on their everyday purchases..',
+      url: 'https://pennycanny.com/'
     }
   ];
   return (
@@ -72,7 +73,7 @@ function Projects({}: Props) {
 
                     <div className="space-y-10 px-0 md:px-10 max-w-6xl">
                         <h4 className="text-4xl font-semibold text-center">
-                            <span className="underline decoration-[#f7ab0a]">{i + 1} of {projects.length}:</span> {project.title}
+                            <span className="underline decoration-[#f7ab0a]">{i + 1} of {projects.length}:</span><a href={project.url} target="_blank" rel="noopener noreferrer">{project.title}</a>
                         </h4>
 
                         <p className="text-lg text-center md:text-left">

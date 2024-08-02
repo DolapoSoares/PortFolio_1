@@ -43,7 +43,7 @@ function About({}: Props) {
 
       <div className="space-y-10 px-0 md:px-10">
         <h4 className="text-4xl font-semibold">A little summary About Me</h4>
-        <p className="text-base">I am Soares Dolapo. I am a FullStack developer(Frontend Heavy) with over 3 years experience. I am good with technologies like React-Native, React, TypeScript, Nodejs, Nestjs, Mongodb, Express and few other technologies I have worked with like firebase and the likes. I have worked with both startups and cooperations where I contributed to applications that contributed to the purpose at large. Working on different applications have helped me in acquiring knowledge that can be contribute to the society and solve real life problems.</p>
+        <p className="text-base">I am Soares Dolapo. I am a FullStack developer(Frontend Heavy) with over 4 years experience. I am good with technologies like React-Native, React, TypeScript, Nodejs, Nestjs, Mongodb, Express and few other technologies I have worked with like firebase and the likes. I have worked with both startups and cooperations where I contributed to applications that contributed to the purpose at large. Working on different applications have helped me in acquiring knowledge that can be contribute to the society and solve real life problems.</p>
       </div>
     </motion.div>
   );
