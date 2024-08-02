@@ -7,19 +7,19 @@ function Projects({}: Props) {
   const projects = [
     {
       id: 1,
-      imgSrc: 'https://oyasmartfix.com/',
+      imgSrc: 'https://res.cloudinary.com/soares04/image/upload/c_crop,ar_16:9/v1722629264/ct0dp6esgwnzyighog7y.png',
       title: 'SmartFix',
       description: ''
     },
     {
       id: 1,
-      imgSrc: 'https://cmris.npf.gov.ng/signup',
-      title: 'Police Login ',
+      imgSrc: 'https://res.cloudinary.com/soares04/image/upload/c_crop,ar_16:9/v1722629262/ykoztgsa7f4nt6kv0llj.png',
+      title: 'NPF SignUp',
       description: ''
     },
     {
       id: 2,
-      imgSrc: '(link unavailable)',
+      imgSrc: 'https://res.cloudinary.com/soares04/image/upload/c_crop,ar_16:9/v1722629262/mhfmbozkku4nfhsnwmib.png',
       title: 'Klasha App',
       description: 'This is a dashboard sample that I built and can be used as a base for other projects'
     },
