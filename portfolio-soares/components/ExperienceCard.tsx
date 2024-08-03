@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
+import Image from 'next/image'
 
 type Props = {
   jobTitle: string;
@@ -50,7 +51,7 @@ function ExperienceCard({
             <p className='font-bold text-2xl mt-1'>{role}</p>
             <div className='flex space-x-2 my-2'>
             {logos.map((logo, index) => (
-            <img key={index} className='h-10 w-10 rounded-full' src={logo} alt=""/>
+            <Image key={index} className='h-10 w-10 rounded-full' src={logo} alt=""/>
           ))}
             </div>
             <p className='uppercase py-5 text-gray-500 '>{startDate} - {endDate}</p>
