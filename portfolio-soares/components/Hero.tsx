@@ -23,6 +23,8 @@ function Hero({}: Props) {
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
         src="https://res.cloudinary.com/soares04/image/upload/v1634422175/uy7y0zkuexy6gevonu7q.png"
         alt=""
+        width={32}
+        height={32}
       />
       <div className="z-10">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">

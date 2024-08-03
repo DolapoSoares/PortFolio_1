@@ -23,7 +23,7 @@ function Skills({}: Props) {
         <h3 className='absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm my-auto'>Hover over screen for proficency level</h3>
 
         <div className='grid grid-cols-5 gap-6'>
-          <Skill icon='https://img.icons8.com/?size=100&id=54087&format=png&color=000000' level='95%'/>
+          <Skill icon='https://img.icons8.com/?size=100&id=54087&format=png&color=000000&width=100' level='95%'/>
           <Skill icon='https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000' level='89%'/>
           <Skill icon='https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000' level='98%'/>
           <Skill icon='https://img.icons8.com/?size=100&id=D2Hi2VkJSi33&format=png&color=000000' level='99%'/>
